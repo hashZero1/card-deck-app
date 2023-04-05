@@ -1,0 +1,50 @@
+body{
+     background-color: rgb(37, 37, 37);
+}
+.Deck-card{
+     margin-top:80px;
+     text-align: center;  
+     color: rgb(228, 228, 228);
+}
+.Deck-h1{
+     font-size: 40px;
+}
+/* .Deck-btn{
+     background-color:tomato;
+     border: 2px solid;
+     font: inherit;
+     line-height: 1;
+     margin: 0.5em;
+     padding: 1em 2em;
+     transition: all;
+   } */
+   
+.Deck-fill {
+     font-size: 20px;
+     font-weight: 200;
+     letter-spacing: 1px;
+     padding: 13px 50px 13px;
+     outline: 0;
+     border: 1px solid black;
+     cursor: pointer;
+     color: azure;
+     position: relative;
+     background-color: rgba(0, 0, 0, 0);
+   }
+   
+.Deck-fill::after {
+     content: "";
+     background-color: #3d95a5;
+     width: 100%;
+     z-index: -1;
+     position: absolute;
+     height: 100%;
+     top: 7px;
+     left: 7px;
+     transition: 0.2s;
+   }
+   
+.Deck-fill:hover::after {
+     top: 0px;
+     left: 0px;
+   }
