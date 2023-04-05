@@ -41,7 +41,7 @@ class Cards extends Component{
         return(
             <div className='Deck-card'>
                 <h1 className='Deck-h1'>Card Deck </h1>
-                <h2 className='Deck-h2'>A Small Demo Made With React</h2>
+                <h2 className='Deck-h2'>A Small project With React</h2>
                 <button className='Deck-fill' onClick={this.cardDeck}>CLick ME</button>
                 {cardDeck}
             </div>
